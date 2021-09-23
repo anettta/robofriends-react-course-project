@@ -1,12 +1,12 @@
 version: 2.1
 jobs:
-  build:
+  build1:
     docker:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are runs
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the `echo` command
-  build:
+  build2:
     docker:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are runs
     steps:
