@@ -10,6 +10,7 @@ import "./App.css";
 // smart components have state and a class
 // hooks are a way to avoid classes
 // hooks allow us to use functional components
+// redux toolkit
 
 function App() {
   // two separate states
